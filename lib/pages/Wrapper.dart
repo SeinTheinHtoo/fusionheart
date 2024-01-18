@@ -34,11 +34,11 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     super.initState();
   }
 
-  final List<Widget> _screens = <Widget>[
-    Text("Match"), // 0
-    Text("Message"), // 1
-    Text("Setting"), // 2
-    Text("Profile") //3
+  List<Widget> get _screens => <Widget>[
+    const Text("Match"), // 0
+    const Text("Message"), // 1
+    const Text("Setting"), // 2
+    const Text("Profile") //3
   ];
 
   @override
